@@ -1,0 +1,102 @@
+{
+  "unauthorized": "Request is unauthorized",
+  "no-player": "No player with GUID {{guid}}",
+  "unknown-stat": "Unknown stat",
+  "generic": {
+    "not-enough": "Not enough parameters",
+    "missing": "`{{name}}` is missing",
+    "nan": "`{{name}}` is not a number",
+    "empty": "`{{name}}` must not be empty",
+    "type": "Invalid type of `{{name}}`",
+    "invalid-data": "Some entries have invalid data",
+    "invalid-amount": "Some entries have invalid amounts",
+    "conflict": "Parameters `{{name1}}` and `{{name2}}` are conflicting",
+    "invalid": "Invalid format"
+  },
+  "token": {
+    "missing": "Token is not provided",
+    "invalid": "Token is invalid",
+    "unknown": "Token is unkown",
+    "expired": "Token is expired"
+  },
+  "guid": {
+    "missing": "No GUID provided",
+    "invalid": "Invalid GUID"
+  },
+  "point": {
+    "missing": "Point with GUID {{guid}} is missing",
+    "out-of-range": "Point is out of range",
+    "neutral": "Point is neutral",
+    "enemy": "Point is onwed by enemy",
+    "full-deploy": "Point is fully deployed",
+    "part-deploy": "Point is not fully deployed",
+    "full-energy": "Point is fully repaired",
+    "deploy-limit": "Core limit for this level is exceeded",
+    "not-an-upgrade": "It's not an upgrade",
+    "missing-slot": "No such slot",
+    "cooldown-long": "Point is tired. Try again in {{time}}.",
+    "cooldown-short": "Discovery is impossible. Try again in {{time}}."
+  },
+  "lines": {
+    "limit-out": "Outbound lines limit is reached",
+    "limit-in": "Inbound lines limit is reached",
+    "anchor": {
+      "missing": "One or both points don't exist",
+      "neutral": "One or both points are neutral",
+      "enemy": "One or both points are onwed by enemy",
+      "part-deploy": "One or both points are not fully deployed"
+    },
+    "no-ref": "No reference to the target point",
+    "cross": "New line crosses with the existent one"
+  },
+  "view": {
+    "no-bbox": "Bounding box is not provided",
+    "no-zoom": "Zoom is not provided",
+    "zoom-nan": "Zoom is not a number",
+    "bbox-invalid": "Invalid bounding box"
+  },
+  "position": {
+    "missing": "Position is not provided",
+    "invalid": "Invalid position"
+  },
+  "inventory": {
+    "missing": "No such item in the inventory",
+    "highlevel": "Item's level exceeds your own",
+    "full": "Inventory is full. Delete some items and try again."
+  },
+  "profile": {
+    "no-id": "No identifier provided"
+  },
+  "auth": {
+    "ban": "Account banned with reason \"{{reason}}\" at {{timestamp}}",
+    "unspecified": "<unspecified>",
+    "limits": {
+      "banned-symbols": "Username contains forbidden symbols",
+      "banned-symbols-full": "Username contains forbidden symbols. Only latin characters and numbers are allowed",
+      "username-length": "Username length must be between 3 and 32 symbols",
+      "password-length": "Password length must be at least 8 symbols",
+      "missing-team": "Team must be selected",
+      "invalid-team": "Invalid team"
+    },
+    "telegram": {
+      "scam": "Telegram account data is scammed",
+      "missing": "Some Telegram account data is missing",
+      "invalid": "Invalid data format",
+      "no": "No Telegram account to link with"
+    },
+    "missing": "Username is not registered",
+    "exist": "Username is already registered",
+    "password": "Password doesn't match"
+  },
+  "units": {
+    "n-seconds": "{{count}} $t(units.seconds, {\"count\": {{count}} })",
+    "n-minutes": "{{count}} $t(units.minutes, {\"count\": {{count}} })",
+    "n-hours": "{{count}} $t(units.hours, {\"count\": {{count}} })",
+    "seconds": "second",
+    "seconds_other": "seconds",
+    "minutes": "minute",
+    "minutes_other": "minutes",
+    "hours": "hour",
+    "hours_other": "hours"
+  }
+}

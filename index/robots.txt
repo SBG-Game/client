@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /api/
+Disallow: /photos/
+Disallow: /tests/
+Disallow: /fragments/
